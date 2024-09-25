@@ -31,12 +31,14 @@ def contains_char(
     # word = str(input_word)
     # letter = str(letter_guess)
     matches: int = (
-        0  # initialized at 0 because thats how many matches there should be before anything runs
+        0  # initialized at 0 because thats how many matches there should be before
+        # anything runs
     )
     print("Searching for " + letter + " in " + word)
     if (
         letter == word[0]
-    ):  # need individual if statements so every index is checked and the code doesn't stop if the elif/else condition is true
+    ):  # need individual if statements so every index is checked and the code doesn't
+        # stop if the elif/else condition is true
         print(letter + " found at index 0")
         matches = matches + 1
 
